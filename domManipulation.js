@@ -22,17 +22,17 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
-
-
-
-
-
-
+myName.innerHTML = "<h1>My Name is Praise Moses</h1>";
+myHobby.innerHTML = "<h2>I like to eat food and listen to music</h2>"
+myLocation.innerHTML = "<h2>I live in Evansville Indiana</h2>"
 });
+
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
-
+image1Button.addEventListener('click', function() {
+    image.src = "evansville.jpg"
+});
 
 
 
